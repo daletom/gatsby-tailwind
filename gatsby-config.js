@@ -28,7 +28,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `https://ix-www.imgix.net/press/imgix-press-kit.pdf?page=2&w=10&fm=png`
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
