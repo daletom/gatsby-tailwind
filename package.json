@@ -5,6 +5,10 @@
   "version": "0.3.0",
   "author": "Kostas Vrouvas <hello@kosvrouvas.com>",
   "dependencies": {
+    "@videojs/http-streaming": "^2.13.1",
+    "@videojs/vhs-utils": "^3.0.4",
+    "@vime/core": "^5.3.1",
+    "@vime/react": "^5.3.1",
     "autoprefixer": "^10.4.2",
     "gatsby": "^4.5.3",
     "gatsby-plugin-google-analytics": "^4.0.0",
