@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby TailwindCSS Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter with TailwindCSS and common dev tools. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@kosvrouvas`,
+    title: `Video Gatsby TailwindCSS Starter`,
+    description: `At one time or another, we have all seen the "building an image gallery with Gatsby tutorial." Well, it's time to up your game and build a video gallery tutorial!! In this workshop, you will learn how to create video gallery pages with Gatsby using all three of these modern video solutions — Strap in for an amazing workshop!`,
+    author: `@letsgoheadless`,
   },
   flags: {
     THE_FLAG: false
@@ -28,7 +28,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `https://ix-www.imgix.net/press/imgix-press-kit.pdf?page=2&w=10&fm=png`
       },
     },
     {

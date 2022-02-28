@@ -9,7 +9,7 @@ function Header({ siteTitle }) {
     <nav className="flex flex-wrap items-center justify-between p-6 mb-6 bg-gray-800">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
         <span className="text-xl font-semibold tracking-tight">
-          {siteTitle}
+        <img src="https://ix-www.imgix.net/press/imgix-press-kit.pdf?page=2&w=100&fm=png" alt="" class="h-8 w-auto" />
         </span>
       </div>
       <div className="block lg:hidden">
@@ -41,10 +41,22 @@ function Header({ siteTitle }) {
             Home
           </Link>
           <Link
-            to={`/page-2`}
+            to={`/youtube`}
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            page 2
+            Youtube
+          </Link>
+          <Link
+            to={`/mp4`}
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            MP4
+          </Link>
+          <Link
+            to={`/hls`}
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            HLS
           </Link>
         </div>
         <div>
@@ -54,7 +66,7 @@ function Header({ siteTitle }) {
             rel="noreferrer"
             className="inline-block px-4 py-2 mt-4 text-sm leading-none text-white border border-white rounded hover:border-transparent hover:text-black hover:bg-white lg:mt-0"
           >
-            Download
+            Github
           </a>
         </div>
       </div>
